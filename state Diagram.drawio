@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="vG6urxpJxIHqR6ppxey3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-1" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="258" y="20" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-2" value="Mencari_Buku" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="207" y="84" width="116" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-3" value="Melihat_Detail_Buku" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="183" y="192" width="164" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-4" value="Menambahkan_Buku" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="92" y="300" width="162" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-5" value="Mengelola_Keranjang" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="269" y="408" width="169" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-6" value="Melakukan_Pemesanan" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="109" y="516" width="181" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-7" value="Melakukan_Pembayaran" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="105" y="624" width="188" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-8" value="Pembayaran_Berhasil" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="20" y="732" width="169" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-9" value="Pembayaran_Gagal" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="294" y="732" width="152" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-10" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="97" y="817" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-11" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-1" target="TeWmNuT8I4K3ll-7-eq8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-12" value="Pilih_Buku" style="curved=1;startArrow=none;;exitX=0.37;exitY=1;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-2" target="TeWmNuT8I4K3ll-7-eq8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-13" value="Tambah_ke_Keranjang" style="curved=1;startArrow=none;;exitX=0.32;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-3" target="TeWmNuT8I4K3ll-7-eq8-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="173" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-14" value="Kembali" style="curved=1;startArrow=none;;exitX=0.59;exitY=0;entryX=0.62;entryY=1;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-3" target="TeWmNuT8I4K3ll-7-eq8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-15" value="Lanjut_Belanja" style="curved=1;startArrow=none;;exitX=0.68;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-4" target="TeWmNuT8I4K3ll-7-eq8-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-16" value="Selesai_Belanja" style="curved=1;startArrow=none;;exitX=0.43;exitY=1;entryX=0.38;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-4" target="TeWmNuT8I4K3ll-7-eq8-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="372" />
+              <mxPoint x="135" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-17" value="Lihat_Detail_Buku" style="curved=1;startArrow=none;;exitX=0.58;exitY=0;entryX=0.75;entryY=1;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-5" target="TeWmNuT8I4K3ll-7-eq8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="372" />
+              <mxPoint x="392" y="264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-18" value="Checkout" style="curved=1;startArrow=none;;exitX=0.38;exitY=1;entryX=0.66;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-5" target="TeWmNuT8I4K3ll-7-eq8-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="288" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-19" value="Konfirmasi_Pesanan" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-6" target="TeWmNuT8I4K3ll-7-eq8-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-20" value="Pembayaran_Sukses" style="curved=1;startArrow=none;;exitX=0.34;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-7" target="TeWmNuT8I4K3ll-7-eq8-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="104" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-21" value="Pembayaran_Tidak_Sukses" style="curved=1;startArrow=none;;exitX=0.68;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-7" target="TeWmNuT8I4K3ll-7-eq8-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="696" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-22" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.53;entryY=0;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-8" target="TeWmNuT8I4K3ll-7-eq8-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeWmNuT8I4K3ll-7-eq8-23" value="Coba_Lagi" style="curved=1;startArrow=none;;exitX=0.63;exitY=0;entryX=0.64;entryY=1;rounded=0;" edge="1" parent="1" source="TeWmNuT8I4K3ll-7-eq8-9" target="TeWmNuT8I4K3ll-7-eq8-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="428" y="696" />
+              <mxPoint x="428" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
